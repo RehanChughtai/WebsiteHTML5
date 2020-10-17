@@ -1,0 +1,186 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f3f3;
+  background-color: #47c7ff;
+}
+#wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 5vw;
+}
+header {
+  background-color: #59d5d8;
+  height: 20vh;
+  padding: 1vw;
+}
+header h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  line-height: 5vh;
+}
+header h2 {
+  font-variant: small-caps;
+  text-align: center;
+  color: #fff;
+  line-height: 1vh;
+}
+.Homepage {
+  padding: 0.25em 0 0.25em 0;
+  text-align: center;
+  line-height: 5vh;
+  background-color: #818181;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+ul.Homepage {
+  margin-top: 2vh;
+}
+.Homepage li {
+  display: inline;
+  padding: 0 1vw 0 1vw;
+  font-size: 1.2em;
+}
+.Homepage a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1vw;
+  font-variant: small-caps;
+}
+.Homepage a:hover {
+  color: #59d5d8;
+}
+p{
+  text-align: left;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 85vw;
+  flex-shrink: 1;
+  display: inline-block;
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+ul{
+  text-align: left;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  max-width: 85vw;
+  word-wrap: break-word;
+}
+li{
+  margin-top: 1vh;
+}
+picture img{
+  margin-top: 5vh;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+picture.resize{
+  max-width:100%;
+  max-height:100%;
+}
+img,video{
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+  align-items: center;
+}
+h4, h2, h1, h3{
+  text-align: left;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 70vw;
+}
+.intprog pre{
+  text-align: left;
+  max-width: 85vw;
+}
+.logo{
+  float: left;
+  margin-right: 5vw;
+  display: block;
+}
+.car{
+  max-width: 90%;
+  display: block;
+  margin-top: 1vh;
+  margin-left: 5vw;
+  transition: transform .2s; /* Animation */
+}
+body{
+  text-align: center;
+  margin-top: 2vh;
+}
+.transition {
+      background-color: #59d5d8;
+      color: #fff;
+      margin-top: 1.5vh;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 1.5em;
+      width: 86vw;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 0.95em;
+      transition: 0.4s;
+}
+.active, .transition:hover {
+      background-color: #47aaac;
+}
+.transition:after {
+      content: '\002B';
+      color: white;
+      font-weight: bold;
+      float: right;
+      margin-left: 1vw;
+}
+.panel {
+      background-color: #47aaac;
+      margin-left: 6.4vw;
+      margin-right: 6.4vw;
+      color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      overflow: hidden;
+}
+.panel p{
+  margin-left: 1vw;
+  overflow: hidden;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.25em;
+}
+.column{
+  flex: 25%;
+  max-width: 25%;
+}
+.column img{
+  margin-top: 0.5em;
+  vertical-align: middle;
+}
+@media (max-width: 25em){
+  .column{
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+footer p{
+  text-align: right;
+}
+.carslide {
+  margin-left: 15vw;
+  max-width: 80%;
+  transition: transform .2s; /* Animation */
+}
+.carslide:hover {
+  transform: scale(1.5);
+}
